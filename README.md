@@ -1,12 +1,66 @@
-# React + Vite
+# 🎾 Hangar do Tennis
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![Status](https://img.shields.io/badge/Status-Em%20desenvolvimento-yellow)](https://github.com/eaealana)
+[![React](https://img.shields.io/badge/Front--end-React-blue)](https://reactjs.org/)
+[![Styled Components](https://img.shields.io/badge/Style-Styled--Components-green)](https://styled-components.com/)
+[![Figma](https://img.shields.io/badge/Design-Figma-red)](https://figma.com)
 
-Currently, two official plugins are available:
+O **Hangar do Tennis** é uma aplicação **real**, desenvolvida para facilitar o agendamento de aulas em uma quadra de tênis. Pensado tanto para o usuário quanto para o administrador, o sistema oferece uma interface intuitiva e um fluxo prático de agendamentos e gestão de horários.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✅ Status do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- [x] Design da interface do usuário (Figma)  
+- [x] Home finalizada  
+- [x] Navegação entre rotas configurada  
+- [ ] Telas de agendamento  
+- [ ] Histórico de reservas  
+- [ ] Tela de perfil (edição)  
+- [ ] Backend (Node.js + Banco de Dados)  
+- [ ] Painel administrativo (admin)  
+- [ ] Deploy final
+
+---
+
+## 🚀 Tecnologias utilizadas
+
+- **React**
+- **React Router DOM**
+- **Styled Components**
+- **Figma** (para o design UI/UX)
+- (Em breve) **Node.js** + **Express**
+- (Em breve) **PostgreSQL**
+- **Vercel** para o deploy front-end
+
+---
+
+## 🗂️ Estrutura de rotas
+
+| Rota         | Componente         | Descrição                         |
+|--------------|--------------------|-----------------------------------|
+| `/home`      | `Home`             | Tela inicial com CTA para agendar |
+| `/agenda`    | `Agenda`           | Tela de calendário e horários     |
+| `/reservas`  | `Reservas`         | Histórico + cancelamento          |
+| `/perfil`    | `Perfil`           | Edição de dados do usuário        |
+
+---
+
+## 📱 Preview da interface (mobile)
+
+![preview hangar mobile](https://github.com/user-attachments/assets/8966c6b2-4d7f-41a0-9b9c-3b3f386d1220)
+
+
+---
+
+## ✨ O que vem por aí
+
+- Telas completas do fluxo do usuário (agendamento e histórico)  
+- Backend com autenticação simples  
+- Painel administrativo para controle de agendamentos  
+- Integração entre front-end e back-end  
+- Deploy completo da aplicação
+
+---
+
+### by [Alana Ribeiro](https://www.linkedin.com/in/eae-alana/) 🤎
